@@ -1,0 +1,205 @@
+[
+  {
+    "presetName": "Boomerang + VHS",
+    "description": "Primera mitad con efecto boomerang, segunda mitad con efecto VHS vintage",
+    "blocks": [
+      {
+        "range": "0-50",
+        "effects": [
+          {
+            "effect": "EffectType.boomerang",
+            "intensity": 1.0
+          }
+        ]
+      },
+      {
+        "range": "50-100",
+        "effects": [
+          {
+            "effect": "EffectType.vhs",
+            "intensity": 1.0
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "category": "creative",
+      "difficulty": "medium",
+      "estimatedTime": "2x video duration"
+    }
+  },
+  {
+    "presetName": "Slow Motion + Zoom",
+    "description": "Efecto de cámara lenta al inicio seguido de zoom dinámico",
+    "blocks": [
+      {
+        "range": "0-30",
+        "effects": [
+          {
+            "effect": "EffectType.slowMotion",
+            "intensity": 0.5
+          }
+        ]
+      },
+      {
+        "range": "30-100",
+        "effects": [
+          {
+            "effect": "EffectType.zoom",
+            "intensity": 1.0
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "category": "dynamic",
+      "difficulty": "easy",
+      "estimatedTime": "1.5x video duration"
+    }
+  },
+  {
+    "presetName": "VHS + Reverse + Color",
+    "description": "Efecto VHS vintage, seguido de reversa y filtro de color",
+    "blocks": [
+      {
+        "range": "0-33",
+        "effects": [
+          {
+            "effect": "EffectType.vhs",
+            "intensity": 1.0
+          }
+        ]
+      },
+      {
+        "range": "33-66",
+        "effects": [
+          {
+            "effect": "EffectType.reverse",
+            "intensity": 1.0
+          }
+        ]
+      },
+      {
+        "range": "66-100",
+        "effects": [
+          {
+            "effect": "EffectType.colorFilter",
+            "intensity": 1.0,
+            "colorParams": {
+              "brightness": 0.1,
+              "contrast": 1.3,
+              "saturation": 1.5,
+              "hue": 30
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "category": "artistic",
+      "difficulty": "hard",
+      "estimatedTime": "3x video duration"
+    }
+  },
+  {
+    "presetName": "Boomerang Triple",
+    "description": "Tres segmentos con efecto boomerang en diferentes velocidades",
+    "blocks": [
+      {
+        "range": "0-33",
+        "effects": [
+          {
+            "effect": "EffectType.boomerang",
+            "intensity": 1.0
+          }
+        ]
+      },
+      {
+        "range": "33-66",
+        "effects": [
+          {
+            "effect": "EffectType.boomerang",
+            "intensity": 0.5
+          }
+        ]
+      },
+      {
+        "range": "66-100",
+        "effects": [
+          {
+            "effect": "EffectType.boomerang",
+            "intensity": 2.0
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "category": "fun",
+      "difficulty": "easy",
+      "estimatedTime": "2.5x video duration"
+    }
+  },
+  {
+    "presetName": "Cinematic Sequence",
+    "description": "Secuencia cinematográfica con múltiples efectos artísticos",
+    "blocks": [
+      {
+        "range": "0-25",
+        "effects": [
+          {
+            "effect": "EffectType.slowMotion",
+            "intensity": 0.3
+          },
+          {
+            "effect": "EffectType.colorFilter",
+            "intensity": 1.0,
+            "colorParams": {
+              "contrast": 1.4,
+              "saturation": 0.8
+            }
+          }
+        ]
+      },
+      {
+        "range": "25-50",
+        "effects": [
+          {
+            "effect": "EffectType.vhs",
+            "intensity": 0.7
+          }
+        ]
+      },
+      {
+        "range": "50-75",
+        "effects": [
+          {
+            "effect": "EffectType.zoom",
+            "intensity": 1.2
+          }
+        ]
+      },
+      {
+        "range": "75-100",
+        "effects": [
+          {
+            "effect": "EffectType.reverse",
+            "intensity": 1.0
+          },
+          {
+            "effect": "EffectType.colorFilter",
+            "intensity": 1.0,
+            "colorParams": {
+              "brightness": -0.1,
+              "contrast": 1.6
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "category": "cinematic",
+      "difficulty": "expert",
+      "estimatedTime": "4x video duration"
+    }
+  }
+]

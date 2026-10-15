@@ -1,0 +1,55 @@
+# --- Secretos (defensa en profundidad, ver opencode.json / AGENTS.md) ---
+# Nunca commitear claves, keystores ni credenciales Firebase.
+.env*
+**/google-services.json
+**/GoogleService-Info.plist
+**/key.properties
+**/*.jks
+**/*.keystore
+**/local.properties
+
+# --- Flutter multi-app (appCabina360V2.3/, flutter_gen_licens/, futuras apps) ---
+**/.dart_tool/
+**/build/
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+
+# --- Android (refuerza android/.gitignore de cada app) ---
+**/android/.gradle/
+**/android/captures/
+**/android/.cxx/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# --- iOS / macOS ---
+**/Pods/
+**/DerivedData/
+**/Flutter/Flutter.framework/
+**/Flutter/App.framework/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+
+# --- IDE / OS ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Logs / temporales ---
+*.log
+*.class
+*.pyc
+
+# --- Node / tooling (incluye .opencode/) ---
+node_modules/
